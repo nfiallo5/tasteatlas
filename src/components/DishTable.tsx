@@ -8,7 +8,7 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 
-import Dish from '../interface/Dish';
+import { type Dish } from '../interface/Dish';
 
 export default function DishTable( { data } : { data: Dish[] } ) {
 
