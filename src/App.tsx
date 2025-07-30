@@ -5,7 +5,7 @@ import DishTable from './components/DishTable'
 import Student from './components/Student'
 
 // PENDIENTE: Cree la interfaz
-import Dish from './interface/Dish'
+import { type Dish } from './interface/Dish'
 
 
 function App() {
